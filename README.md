@@ -1,6 +1,8 @@
 ## How to use
 
 ```shell
+cd ShanghaiTechHostGenerator
+chmod +x hosts.sh
 bash hosts.sh
 ```
 ## How to contribute
