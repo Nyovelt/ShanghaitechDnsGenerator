@@ -11,3 +11,4 @@ bash hosts.sh
 
 ## TODO
 - DNS hijack on campus makes ip bad. Use DoH to get Authoritative resolving.
+- AutoUpdate
