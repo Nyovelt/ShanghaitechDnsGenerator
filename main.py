@@ -1,10 +1,10 @@
 from re import U
 import dns.resolver
 
-DNS_SERVER_LAN="10.15.44.11" # GeekPie DNS
+DNS_SERVER_LAN="10.15.44.11" # ShanghaiTech IT DNS
 resolver_lan = dns.resolver.Resolver(configure=False)
 resolver_lan.nameservers = [DNS_SERVER_LAN]
-DNS_SERVER_WAN="10.15.89.182" # Tencent DNS
+DNS_SERVER_WAN="10.15.89.182" # GeekPie DNS
 resolver_wan = dns.resolver.Resolver(configure=False)
 resolver_wan.nameservers = [DNS_SERVER_WAN]
 urlPath="url.conf"
