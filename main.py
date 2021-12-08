@@ -4,7 +4,7 @@ import dns.resolver
 DNS_SERVER_LAN="10.15.44.11" # GeekPie DNS
 resolver_lan = dns.resolver.Resolver(configure=False)
 resolver_lan.nameservers = [DNS_SERVER_LAN]
-DNS_SERVER_WAN="119.29.29.29" # Tencent DNS
+DNS_SERVER_WAN="10.15.89.182" # Tencent DNS
 resolver_wan = dns.resolver.Resolver(configure=False)
 resolver_wan.nameservers = [DNS_SERVER_WAN]
 urlPath="url.conf"
